@@ -12,12 +12,12 @@ public class Matricula {
     }
 
     public void gerarRelatorio() {
-        System.out.println("========================================");
-        System.out.println("         RELATÓRIO DE MATRÍCULA         ");
-        System.out.println("========================================");
-        System.out.println("- Documento Fiscal : " + documentoFiscal.getDescricao());
-        System.out.println("- Pagamento        : " + pagamento.getDescricao());
-        System.out.println("- Comprovante      : " + comprovante.getDescricao());
-        System.out.println("========================================\n");
+        System.out.println("--------------");
+        System.out.println("Matrícula");
+        System.out.println("--------------");
+        System.out.println("Documento Fiscal: " + documentoFiscal.getDescricao());
+        System.out.println("Pagamento: " + pagamento.getDescricao());
+        System.out.println("Comprovante: " + comprovante.getDescricao());
+        System.out.println("--------------\n");
     }
 }
